@@ -36,7 +36,7 @@ export function ErrorState({ message = 'Something went wrong.', onRetry, classNa
 }
  
 // Search Empty 
-export function SearchEmpty({ query, className }: { query: string; className?: string }) {
+export function SearchEmpty({ className }: { query: string; className?: string }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}

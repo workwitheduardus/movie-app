@@ -31,7 +31,6 @@ export default function HomePage() {
   const {
     data: popularData,
     isLoading: popularLoading,
-    isError: popularError,
   } = usePopularMovies();
   const { data: nowPlayingData, isLoading: nowPlayingLoading } = useNowPlayingMovies();
   const {
